@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1A6D5E6A-AC9D-4E33-97A0-9E0C1FF3B3B3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "D8FE74F7-9AF1-4468-8938-0DBC4A1DC587"
+            shouldBeEnabled = "Yes"
+            condition = "!(BOOL)[NSThread isMainThread]"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "[UIView layoutIfNeeded]"
+            moduleName = "">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+            <Locations>
+               <Location
+                  uuid = "D8FE74F7-9AF1-4468-8938-0DBC4A1DC587 - 54ae54a3e9c292a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UIView(Hierarchy) layoutIfNeeded]"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
